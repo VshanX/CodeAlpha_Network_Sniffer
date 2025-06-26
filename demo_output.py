@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-Network Sniffer Demo - Sample Output Display
-
-This script demonstrates the output format of the network sniffer
-without requiring administrator privileges or actual packet capture.
-
-Usage: python demo_output.py
-"""
-
 from colorama import init, Fore, Back, Style
 from tabulate import tabulate
 

@@ -1,27 +1,3 @@
-#!/usr/bin/env python3
-"""
-Network Packet Sniffer using Scapy
-
-This script captures and analyzes network traffic packets in real-time.
-It provides detailed information about each packet including source/destination IPs,
-protocols, and payload summaries in a clear tabular format.
-
-Requirements:
-    - Python 3.6+
-    - Administrator/Root privileges (required for packet capture)
-    - Libraries: scapy, tabulate, colorama
-
-Installation:
-    pip install scapy tabulate colorama
-
-Usage:
-    Run as administrator/root:
-    python network_sniffer.py
-
-Author: Network Security Specialist
-Date: June 26, 2025
-"""
-
 import sys
 import time
 import threading
